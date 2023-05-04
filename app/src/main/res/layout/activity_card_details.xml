@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Card_Details">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="62dp"
+        android:layout_height="54dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/left"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/cardW"
+        android:layout_height="@dimen/cardH"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/_000_f_470324701_pu8ytztie9itvglxsvlvvpgp7kzg6ldy"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="301dp"
+        android:layout_height="36dp"
+        android:text="@string/Card_Details"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="154dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="207dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Card_name"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="195dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Number"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="139dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Expir"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="137dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="108dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/CVC"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="590dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber6"
+        android:layout_width="162dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="203dp"
+        android:layout_height="49dp"
+        android:text="@string/Save"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="105dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#434345"
+        android:text="@string/Pay"
+        app:iconTint="@color/colour"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="282dp"
+        android:layout_height="235dp"
+        app:srcCompat="@drawable/whatsapp_image_2023_03_19_at_11_23_15_am"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

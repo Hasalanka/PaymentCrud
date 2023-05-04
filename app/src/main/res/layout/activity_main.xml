@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:textAlignment="center"
+    tools:context="@string/location">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="128dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="@string/checkout"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="365dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/YourLocation"
+        android:textColor="@color/black"
+        android:textDirection="inherit"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="@dimen/wWidth"
+        android:layout_height="@dimen/hHeight"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Dropoff"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="151dp"
+        android:layout_height="84dp"
+        android:backgroundTint="@color/colour"
+        android:text="@string/Handit"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="191dp"
+        android:layout_height="83dp"
+        android:backgroundTint="@color/colour"
+        android:text="@string/Leave"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Tip"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="385dp"
+        android:layout_height="72dp"
+        android:text="@string/Tipw"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="519dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="59dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#434345"
+        android:text="@string/Rs5"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#434345"
+        android:text="@string/RS10"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="63dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#434345"
+        android:text="@string/Rs20"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="592dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="161dp"
+        android:layout_height="87dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/RS"
+        android:textAlignment="textStart"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="13dp"
+        android:layout_height="725dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461"
+        tools:layout_editor_absoluteX="396dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="378dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#434345"
+        android:text="@string/pay"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="669dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/Address"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="@dimen/w"
+        android:layout_height="@dimen/h"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/PhNumber"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="181dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:layout_editor_absoluteX="209dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
